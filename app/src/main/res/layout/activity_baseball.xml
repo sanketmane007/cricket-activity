@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".baseballActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".baseballActivity">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/baseballchampinship" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="BASEBALL"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:text="BASEBALL LIVE SCORE :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="______________Tomateros 10 7 3 54:42 0.700"
+
+                android:layout_marginTop="1dp"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="BASEBALL_NEWS"
+                android:layout_marginTop="1dp"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="247dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/baseballnews" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_marginTop="1dp"
+
+                android:text="Congressman Joe Barton of Texas and Chuck Fleischmann of Tennessee walked down the road near a baseball field in Alexandria, Virginia, in stunned silence. Mr Barton's two sons were alongside."
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="247dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/baseballtimetable" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_marginTop="1dp"
+
+                android:text="Major League Baseball is a professional baseball organization and the oldest of the major professional sports leagues in the United States and Canada."
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

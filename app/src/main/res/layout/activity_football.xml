@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".FootballActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".CricketActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/football1" />
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:text="FOOTBALL"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:text="FOOTBALL LIVE SCORE :"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+
+            android:background="@color/colorPrimary"
+            android:text="1. Athletic Bilbao :1,Real Valladolid:1   2.  Alavés: 2  FT  Celta Vigo:0"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:text="FOOTBALL_NEWS :"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/football2news" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:text="1.Kerala Blasters seal comeback win in explosive opener
+            2. ISL 2019-20: Full schedule, fixtures, date, time and squads list"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Back"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>

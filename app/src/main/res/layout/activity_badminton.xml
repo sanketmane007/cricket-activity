@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".BadmintonActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".BadmintonActivity">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/badmintonimage" />
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="BADMINTON"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:text="Badminton LIVE SCORE :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="_____10 7 3 54:42 0.700"
+
+                android:layout_marginTop="1dp"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="BADMINTON_NEWS"
+                android:layout_marginTop="1dp"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="247dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/indianbadminton" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_marginTop="1dp"
+
+                android:text="French Open: Sindhu, Saina enter quarters; Satwik-Chirag stu ..
+
+Read more at:
+http://timesofindia.indiatimes.com/articleshow/71745041.cms?utm_source=contentofinterestutm_medium=textutm_campaign=cppst."
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="247dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/badminton" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_marginTop="1dp"
+
+                android:text="https://www.sportskeeda.com/badminton/badminton-schedule"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

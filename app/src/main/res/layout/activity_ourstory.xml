@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OurstoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/sportimages" />
+
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="OUR_STORY"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="1.We're moving on from MS Dhoni and backing Rishabh Pant: MSK Prasad  "
+
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="2.Sourav Ganguly meets Virat Kohli, Rohit Sharma to discuss roadmap "
+
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="3.Not trying to be the perfect batsman anymore: Sanju Samson  "
+
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20dp"
+           />
+
+
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="BACK" />
+
+
+       </LinearLayout>
+
+</LinearLayout>

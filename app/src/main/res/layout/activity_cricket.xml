@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CricketActivity">
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CricketActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/cricket2" />
+
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="CRICKET"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:text="CRICKET LIVE SCORE :"
+           android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="That's stumps at Ranchi! 🇮🇳 497/9 dec (116.3 overs) 🇿🇦 9/2 (5 overs)"
+
+            android:layout_marginTop="1dp"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="CRICKET_NEWS"
+           android:layout_marginTop="1dp"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="247dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/rohitnews" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_marginTop="1dp"
+
+                android:text="Rohit ton ensures India claim day one honours despite Proteas opening burst....|| South Africa claimed three wickets with the new ball, but Rohit Sharma’s third hundred of the series ensured the tale on the first day at Ranchi was another of Indian dominance."
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="247dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/scheduleindia" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:layout_marginTop="1dp"
+
+            android:text="The ICC is the global governing body for cricket. Representing 104 members, the ICC governs and administrates the game and works with our members to grow the sport. The ICC is also responsible for the staging of all ICC Events."
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
